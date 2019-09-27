@@ -1,11 +1,11 @@
 # useJQuery
 
 ```command
-$ yarn add @hrdtbs/use-jquery jquery react
+$ yarn add @hrdtbs/use-jquery jquery react @types/jquery @types/react
 ```
 
 ```tsx
-const App = () => {
+const App:React.FC = () => {
   const ref = useRef<HTMLDivElement>(null)
   
   useJQuery(ref, $ => {
