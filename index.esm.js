@@ -25,4 +25,4 @@ var useJQuery = function (ref, callback) {
     return state;
 };
 
-export default useJQuery;
+export { useJQuery };

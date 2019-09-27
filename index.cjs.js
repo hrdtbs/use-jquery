@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var react = require('react');
@@ -29,4 +31,4 @@ var useJQuery = function (ref, callback) {
     return state;
 };
 
-module.exports = useJQuery;
+exports.useJQuery = useJQuery;
